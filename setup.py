@@ -8,5 +8,6 @@ setup(
     license='GPLv3',
     author='Bernt Anker',
     author_email='bernt.anker@me.com',
-    description='Dynamic DNS Updater', requires=['pygodaddy']
+    description='Dynamic DNS Updater', requires=['pygodaddy',],
+    entry_point='gddnsupdate.py',
 )
