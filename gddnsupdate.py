@@ -7,4 +7,4 @@ if os.path.isfile(configfile):
     dnsupdater = GodaddyDynamicDnsUpdater(configfile)
     dnsupdater.updatedns()
 else:
-    print('No valid config file.')
+    print('No valid config file entered. Usage: gddnsupdate <configfile>')
