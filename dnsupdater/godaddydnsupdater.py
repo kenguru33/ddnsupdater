@@ -4,7 +4,7 @@ from requests import get
 from smtplib import SMTP
 
 
-class GoDaddyDynamicDns:
+class GodaddyDnsUpdater:
     @property
     def __publicip(self):
         return get('https://api.ipify.org').text
