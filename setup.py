@@ -12,7 +12,7 @@ setup(
     install_requires=['pygodaddy',],
     entry_points={
         'console_scripts': [
-            'dnsupdater=dnsupdater:main',
+            'gd-dnsupdater=dnsupdater:gd_dnsupdater',
         ],
     },
 )

@@ -2,7 +2,7 @@ from dnsupdater.godaddydnsupdater import GodaddyDnsUpdater
 from sys import argv as commandlineargs
 from os import path as configfilepath
 
-def main():
+def gd_dnsupdater():
     if len(commandlineargs) == 2:
         configfile = commandlineargs[1]
         if configfilepath.isfile(configfile):
@@ -11,4 +11,4 @@ def main():
         else:
             print('Error: The config file is not valid!')
     else:
-        print('Usage: dnsupdater <configfile>')
+        print('Usage: gd-dnsupdater <configfile>')
