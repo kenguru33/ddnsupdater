@@ -1,13 +1,18 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='ddnsupdater',
+    name='dnsupdater',
     version='0.1',
-    packages=['ddnsupdater'],
+    packages= find_packages(),
     url='bernt-anker.com',
     license='GPLv3',
     author='Bernt Anker',
     author_email='bernt.anker@me.com',
-    description='Dynamic DNS Updater', requires=['pygodaddy',],
-    entry_point='gddnsupdate.py',
+    description='Dynamic DNS Updater',
+    install_requires=['pygodaddy',],
+    entry_points={
+        'console_scripts': [
+            'dnsupdater=dnsupdater:main',
+        ],
+    },
 )
