@@ -1,14 +1,14 @@
-Dynamic dns updater for godaddy dns records.
+# Dynamic dns updater for godaddy dns records.
 
  - Fully manage multiple domains
  - Send notify mails on dns record changes.
 
-usage: gddnsupdate <configfile>
+**usage: gddnsupdate \<configfile\>**
 
 
-Config file example:
+### Config file example:
 
-# GoDaddyDDns Configuration
+##### GoDaddyDDns Configuration
 
     [global]
 
@@ -56,7 +56,7 @@ Config file example:
 
 
 
-TIPS:
+**TIPS:**
 
 - The updater program supports only A records. To be able to fully mange your domains you must remove all cname an replace them with A records.
 - Set the TTL to 600.
