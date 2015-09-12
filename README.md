@@ -1,9 +1,11 @@
-# Dynamic dns updater for godaddy dns records.
+# DDnsUpdater
+
+A dynamic dns updater for godaddy dns records.
 
  - Fully manage multiple domains
  - Send notify mails on dns record changes.
 
-**usage: gddnsupdate \<configfile\>**
+**usage: gd-dnsupdate \<configfile\>**
 
 
 ### Config file example:
