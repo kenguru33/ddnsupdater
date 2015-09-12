@@ -8,7 +8,7 @@
 
 ### Config file example:
 
-## GoDaddyDDns Configuration
+#### GoDaddyDDns Configuration
 
     [global]
 
