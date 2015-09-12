@@ -3,10 +3,10 @@
  - Fully manage multiple domains
  - Send notify mails on dns record changes.
 
-.. usage: gddnsupdate <configfile>
+**usage: gddnsupdate <configfile>**
 
 
-.. Config file example:
+### Config file example:
 
 ## GoDaddyDDns Configuration
 
